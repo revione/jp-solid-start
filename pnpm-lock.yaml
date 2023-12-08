@@ -38,9 +38,6 @@ dependencies:
   solid-start-netlify:
     specifier: ^0.3.10
     version: 0.3.10(solid-start@0.3.10)
-  xoauth2:
-    specifier: ^1.2.0
-    version: 1.2.0
 
 devDependencies:
   '@iconify/json':
@@ -3690,10 +3687,6 @@ packages:
 
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
-
-  /xoauth2@1.2.0:
-    resolution: {integrity: sha512-hKuNbkj3q/ifCcfWnW6KURP+6ExSuLdLG007gasNhMEMKlLaejNkIA6eu5Ol1xPP0/kzTuA87XHDaAcUw5k73Q==}
-    dev: false
 
   /y18n@5.0.8:
     resolution: {integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==}
