@@ -5,13 +5,10 @@ import netlify from "solid-start-netlify";
 
 export default defineConfig({
   plugins: [
-    icons({
-      compiler: "solid",
-    }),
+    icons({ compiler: "solid" }),
     solid({
-      adapter: netlify({ edge: true }),
       experimental: { islands: true, islandsRouter: true },
-      // adapter: netlify({ edge: true }),
+      adapter: netlify({ edge: true }),
       ssr: true,
     }),
   ],
