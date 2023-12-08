@@ -1,0 +1,31 @@
+/*  */
+
+@keyframes animation1 {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 140px;
+  }
+}
+
+@keyframes animation2 {
+  0% {
+    opacity: 1;
+    height: 140px;
+  }
+  100% {
+    opacity: 0;
+    height: 0;
+  }
+}
+
+.menuAnimation1 {
+  animation: animation1 1s ease-in-out forwards;
+}
+
+.menuAnimation2 {
+  animation: animation2 1s ease-in-out forwards;
+}

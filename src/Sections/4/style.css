@@ -1,0 +1,66 @@
+/*  */
+@keyframes imageAnimation1 {
+  0% {
+    transform: translateY(-33%) scale(1.2);
+    transform-origin: top center;
+  }
+  100% {
+    transform: translateY(-13%) scale(1.3);
+  }
+}
+
+@keyframes imageAnimation2 {
+  0% {
+    transform: translateY(-13%) scale(1.3);
+    transform-origin: top center;
+  }
+  100% {
+    transform: translateY(-33%) scale(1.2);
+  }
+}
+
+.hover\:image {
+  animation: imageAnimation2 0.25s ease-in-out forwards;
+  transform-origin: top center;
+}
+
+.card-s4:hover .hover\:image {
+  animation: imageAnimation1 0.25s ease-in-out forwards;
+  transform-origin: top center;
+}
+
+/*  */
+
+@keyframes textAnimation1 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes textAnimation2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hover\:text {
+  animation: textAnimation2 0.25s ease-in-out forwards;
+}
+
+.card-s4:hover .hover\:text {
+  animation: textAnimation1 0.3s ease-in-out forwards;
+}
+
+.default-card-section-4-image {
+  transform: translateY(-33%) scale(1.2);
+}
+
+.default-card-section-4-text {
+  opacity: 1;
+}
